@@ -131,7 +131,7 @@ const Register = () => {
 
         try {
             // Post registration data to the backend
-            const res = await axios.post('/api/users/register', { name, email, password });
+            const res = await axios.post('https://nonprofitorganization-4zqi.onrender.com/api/users/register', { name, email, password });
             setSuccess('Registration successful!');
             setError('');
         } catch (err) {

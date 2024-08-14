@@ -32,7 +32,7 @@ const Donation = () => {
         const bank = banks.find(bank => bank.name === selectedBank && bank.ifsc === ifscCode);
         if (bank) {
             try {
-                const response = await fetch('http://localhost:5000/api/donation', {
+                const response = await fetch('https://nonprofitorganization-4zqi.onrender.com/api/donation', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
