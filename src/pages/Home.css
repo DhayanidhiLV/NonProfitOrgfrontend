@@ -1,0 +1,45 @@
+
+.home-container {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: url('') no-repeat center center;
+    background-size: cover; 
+    background-position: center; 
+    height: 600px; 
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    display: inline-block;
+}
+
+.about-us, .our-impact {
+    padding: 20px;
+}
+
+.impact-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+

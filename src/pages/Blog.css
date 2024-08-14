@@ -1,0 +1,41 @@
+.blog-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.blog-header {
+    background-color: #FFC107;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.blog-content {
+    padding: 40px 20px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.blog-post h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
